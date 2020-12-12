@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".LookMoreActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#CB81F37E"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/lkm_bt"
+        android:text="查看"
+        android:background="#B54CAF50"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <ListView
+        android:id="@+id/wk_list"
+        android:background="#A8CDDC39"
+        android:scrollbars="none"
+        android:scrollbarStyle="outsideInset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

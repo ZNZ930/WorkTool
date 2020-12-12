@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/look_id"
+        android:background="#00FFFFFF"
+        android:textSize="20sp"
+        android:textColor="#0E3150"
+        android:layout_weight=".1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/look_time"
+        android:background="#00FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_weight=".3"
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/look_dizhi"
+        android:background="#00FFFFFF"
+        android:layout_weight=".3"
+        android:textSize="20sp"
+        android:textColor="#0E3150"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/look_fuwumx"
+        android:textColor="#0E3150"
+        android:background="#00FFFFFF"
+        android:layout_weight=".3"
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ZNZ" parent="Theme.AppCompat.DayNight">
+        <!-- 应用名称栏. -->
+        <item name="colorPrimary">#7E03A9F4</item>
+        <!-- 状态栏颜色. -->
+        <item name="colorPrimaryDark">#B4FFD0AB</item>
+        <!-- 输入框 -->
+        <item name="colorAccent">#BC8963CF</item>
+        <item name="android:navigationBarColor">#A9BD7F83</item>
+    </style>
+
+</resources>

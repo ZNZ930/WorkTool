@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.znz.worktool" >
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/ZNZ">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ImageSqlActivity" />
+        <activity android:name=".DataRecord" />
+        <activity android:name=".OcrTextActivity" />
+        <activity android:name=".LookMoreActivity" />
+        <activity android:name=".UpadteActivity" />
+        <activity android:name=".LookActivity" />
+        <activity android:name=".WkTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyService.TongZhiService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.znz.worktool.TONGZHI_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
